@@ -1,0 +1,1 @@
+python /users/sglwan19/QMIX/src/main.py --config=priority_replay_buffer_qmix --env-config=pred_prey

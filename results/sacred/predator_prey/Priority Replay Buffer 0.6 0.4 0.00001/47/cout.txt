@@ -1,0 +1,8 @@
+/users/sglwan19/QMIX/src/components/episode_buffer.py:104: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  ../torch/csrc/utils/tensor_new.cpp:201.)
+  v = th.tensor(v, dtype=dtype, device=self.device)
+/users/sglwan19/QMIX/src/components/episode_buffer.py:104: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  v = th.tensor(v, dtype=dtype, device=self.device)
+Closing Multi-Agent Navigation
+Exiting Main
+Stopping all threads
+Thread Thread-1 is alive! Is daemon: False

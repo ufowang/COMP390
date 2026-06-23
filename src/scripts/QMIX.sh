@@ -1,0 +1,1 @@
+python /users/sglwan19/QMIX/src/main.py --config=qmix --env-config=pred_prey

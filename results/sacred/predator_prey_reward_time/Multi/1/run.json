@@ -1,0 +1,95 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "C:\\Users\\ufowlc\\Desktop\\wqmix-master\\src",
+    "dependencies": [
+      "munch==2.5.0",
+      "numpy==1.21.6",
+      "sacred==0.8.2",
+      "torch==1.13.1+cu117"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "main.py",
+        "_sources\\main_2610b5d9d68accb7b971ff388184b388.py"
+      ],
+      [
+        "run.py",
+        "_sources\\run_452ebfbebe354b242a7ddd7f5fa36771.py"
+      ],
+      [
+        "utils\\__init__.py",
+        "_sources\\__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "utils\\logging.py",
+        "_sources\\logging_60ca53cfc5e31dac508f9d45ea4f21bc.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"D:\\anaconda3\\envs\\pymarl\\lib\\site-packages\\sacred\\config\\captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"C:\\Users\\ufowlc\\Desktop\\wqmix-master\\src\\main.py\", line 38, in my_main\n    run(_run, config, _log)\n",
+    "  File \"C:\\Users\\ufowlc\\Desktop\\wqmix-master\\src\\run.py\", line 71, in run\n    os._exit(os.EX_OK)\n",
+    "AttributeError: module 'os' has no attribute 'EX_OK'\n"
+  ],
+  "heartbeat": "2025-05-03T04:23:59.650205",
+  "host": {
+    "ENV": {},
+    "cpu": "Unknown",
+    "gpus": {
+      "driver_version": "566.07",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 3060 Laptop GPU",
+          "persistence_mode": false,
+          "total_memory": 6144
+        }
+      ]
+    },
+    "hostname": "Luchengs-Laptop",
+    "os": [
+      "Windows",
+      "Windows-10-10.0.19041-SP0"
+    ],
+    "python_version": "3.7.16"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2025-05-02T23:10:05.456558",
+  "status": "FAILED",
+  "stop_time": "2025-05-03T04:23:59.793234"
+}
