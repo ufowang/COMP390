@@ -6,3 +6,6 @@
 # Python bytecode/cache
 __pycache__/
 *.py[cod]
+
+# Sacred source snapshots
+results/sacred/_sources/
